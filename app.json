@@ -1,0 +1,9 @@
+{
+  "name": "fortydayschallenge",
+  "displayName": "fortydayschallenge",
+
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-7704502606452068~1295136618",
+    "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx"
+  }
+}

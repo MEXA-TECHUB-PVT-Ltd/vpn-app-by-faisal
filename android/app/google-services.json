@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "428603498610",
+    "project_id": "disciplineguru-a311a",
+    "storage_bucket": "disciplineguru-a311a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428603498610:android:486a426862eb127285e2eb",
+        "android_client_info": {
+          "package_name": "com.fortydayschallenge1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428603498610-jvojpoe24f24j9978rbmu4fblk8is163.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpLOlixb9hKqdjldoqNnnZGoWmvyi1oxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428603498610-jvojpoe24f24j9978rbmu4fblk8is163.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
