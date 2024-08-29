@@ -1,10 +1,10 @@
-// // // import App from './src/routes';
+// // // // import App from './src/routes';
 
-// // // export default App;
-// // // adding comniy
-// // // sdsfsdf
+// // // // export default App;
+// // // // adding comniy
+// // // // sdsfsdf
 
-///////////////////////////////////////////////////////////////////////////////////////////////
+// ///////////////////////////////////////////////////////////////////////////////////////////////
 
 import React, { useState, useEffect } from "react";
 import {
@@ -21,8 +21,7 @@ import {
   NativeEventEmitter,
   DeviceEventEmitter,
 } from "react-native";
-import RNFS from "react-native-fs";
-import { JAPAN_OVPN_CONFIG } from "@env";
+
 import Papa from "papaparse";
 import { useIsFocused } from "@react-navigation/native";
 const { VpnServiceModule, MainActivity } = NativeModules;
@@ -125,30 +124,8 @@ const App = () => {
     // setSelectedVpn(vpnList[0]);
   };
 
-  const fetchConfigFile = async () => {
-    return configFile;
-    // return JAPAN_OVPN_CONFIG;
-  };
 
-  const connectVpn = () => {
-    // if (selectedVpn == null) return;
-    // console.log('-----------',selectedVpn )
-    // if (vpnState === 'disconnected') {
-    //   VpnServiceModule.startVpn(
-    //     selectedVpn.config,
-    //     selectedVpn.country,
-    //     selectedVpn.username,
-    //     selectedVpn.password,
-    //     null,
-    //     null,
-    //     // []
-    //   );
-    // } else {
-    //   VpnServiceModule.stopVpn();
-    //   setVpnState('disconnected');
-    //   setVpnStatus('Disconnected from VPN');
-    // }
-  };
+
 
   const startVpn = async () => {
     if (selectedVpn == null) return;
@@ -195,7 +172,12 @@ const App = () => {
               style={styles.listItem}
               onPress={() => setSelectedVpn(item)}
             >
-              <Text style={styles.listText}>{item.CountryLong}</Text>
+            <View>
+               <Text style={styles.listText}>{item.CountryLong}</Text>
+               <Text style={styles.listText}>{item.CountryShort}</Text>
+            </View>
+              
+              
               <View
                 style={[
                   styles.indicator,
@@ -210,16 +192,6 @@ const App = () => {
       <TouchableOpacity style={styles.reloadButton} onPress={reloadServers}>
         <Text style={styles.buttonText}>Reload</Text>
       </TouchableOpacity>
-      {/* {loading ? (
-   <Text>Loadin</Text>
-
-) :(
-  <FlatList
-  data={vpnServers}
-  keyExtractor={(item) => item.HostName} // Assuming HostName is unique
-  renderItem={renderItem}
-/>
-)} */}
     </View>
   );
 };
@@ -291,3 +263,64 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
+
+// App.js
+// import 'react-native-gesture-handler';
+// import React from 'react';
+// import { NavigationContainer } from '@react-navigation/native';
+// import { createNativeStackNavigator } from '@react-navigation/native-stack';
+// import HomeScreen from './src/screens/HomeScreen';
+// import SettingsScreen from './src/screens/SettingsScreen';
+// import LoginScreen from './src/screens/AuthScreen/LoginScreen';
+// import SignupScreen from './src/screens/AuthScreen/SignupScreen';
+// import ForgotPasswordScreen from './src/screens/AuthScreen/ForgotPasswordScreen';
+// import OTPVerificationScreen from './src/screens/AuthScreen/OTPVerificationScreen';
+// import LocationSelectionScreen from './src/screens/LocationSelectionScreen';
+// import MyAccount from './src/screens/MyAccount';
+// import TermServices from './src/screens/TermServices';
+// import PrivacyPolicy from './src/screens/PrivacyPolicy';
+// import AboutApp from './src/screens/AboutApp';
+// import ChangePasswordScreen from './src/screens/ChangePasswordScreen';
+// import Help from './src/screens/Help';
+// import HelpDetailScreen from './src/screens/HelpDetailScreen';
+// import OnboardingScreen from './src/screens/Onboarding/OnboardingScreen';
+// import CustomDrawer from './src/screens/CustomDrawer';
+
+
+
+// const Stack = createNativeStackNavigator();
+// const App = () => {
+//   return (
+//     <NavigationContainer  >
+//       <Stack.Navigator  screenOptions={{
+//       headerShown:false,
+    
+      
+//   }}>
+
+//       {/* <Stack.Screen name="OnboardingScreen" component={OnboardingScreen} /> */}
+
+//       {/* <Stack.Screen name="CustomDrawer" component={CustomDrawer} /> */}
+//       <Stack.Screen name="LoginScreen" component={LoginScreen} />
+//       <Stack.Screen name="SignupScreen" component={SignupScreen} />
+//       <Stack.Screen name="ForgotPasswordScreen" component={ForgotPasswordScreen} />
+//       <Stack.Screen name="OTPVerificationScreen" component={OTPVerificationScreen} />
+      
+//         <Stack.Screen name="HomeScreen" component={HomeScreen} />
+//         <Stack.Screen name="LocationSelectionScreen" component={LocationSelectionScreen} />
+//         <Stack.Screen name="MyAccount" component={MyAccount} />
+//         <Stack.Screen name="SettingsScreen" component={SettingsScreen} />
+//         <Stack.Screen name="TermServices" component={TermServices} />
+//         <Stack.Screen name="PrivacyPolicy" component={PrivacyPolicy} />
+//         <Stack.Screen name="AboutApp" component={AboutApp} />
+//         <Stack.Screen name="ChangePasswordScreen" component={ChangePasswordScreen} />
+//         <Stack.Screen name="Help" component={Help} />
+//         <Stack.Screen name="HelpDetailScreen" component={HelpDetailScreen} />
+//       </Stack.Navigator>
+//     </NavigationContainer>
+//   );
+// };
+
+// export default App;
+
