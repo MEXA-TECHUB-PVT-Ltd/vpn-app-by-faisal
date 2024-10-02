@@ -6,48 +6,67 @@ import { useNavigation } from '@react-navigation/native';
 import Images from '../../constants/Image';
 
 const Dots = ({ selected }) => {
-    let backgroundColor;
-
-    backgroundColor = selected ? 'rgba(255, 165, 0, 0.8)' : 'rgba(0, 0, 0, 0.3)';
+    let backgroundColor = selected ? 'rgba(255, 165, 0, 0.8)' : 'white';
+    let width = selected ? 30 : 10; // Set width based on selection
 
     return (
         <View
             style={{
-                width: 6,
-                height: 6,
+                width, // Dynamically set width
+                height: 10, // Height remains the same
                 marginHorizontal: 3,
-                backgroundColor
+                backgroundColor,
+                borderRadius: 10, // Rounded corners
             }}
         />
     );
-}
+};
 
 const Skip = ({...props}) => (
     <TouchableOpacity
-        style={{marginHorizontal: 10}}
+        style={{
+            marginHorizontal: 10,
+            backgroundColor: '#FF9900', // Button background color
+            borderRadius: 20, // Rounded corners
+            paddingVertical: 10,
+            paddingHorizontal: 20,
+        }}
         {...props}
     >
-        <Text style={{fontSize: 16, color: 'orange'}}>Skip</Text>
+        <Text style={{fontSize: 16, color: 'white', fontWeight: 'bold'}}>Skip</Text>
     </TouchableOpacity>
 );
 
 const Next = ({...props}) => (
     <TouchableOpacity
-        style={{marginHorizontal: 10}}
+        style={{
+            marginHorizontal: 10,
+            backgroundColor: '#FF9900', // Button background color
+            borderRadius: 20, // Rounded corners
+            paddingVertical: 10,
+            paddingHorizontal: 20,
+        }}
         {...props}
     >
-        <Text style={{fontSize: 16, color: 'orange'}}>Next</Text>
+        <Text style={{fontSize: 16, color: 'white', fontWeight: 'bold'}}>Next</Text>
     </TouchableOpacity>
 );
 
 const Done = ({...props}) => (
     <TouchableOpacity
-        style={{marginHorizontal: 10}}
+        style={{
+            marginHorizontal: 10,
+            backgroundColor: '#FF9900', // Button background color
+            borderRadius: 20, // Rounded corners
+            paddingVertical: 10,
+            paddingHorizontal: 20,
+        }}
         {...props}
     >
-        <Text style={{fontSize: 16, color: 'orange'}}>Done</Text>
+        <Text style={{fontSize: 16, color: 'white', fontWeight: 'bold'}}>Done</Text>
     </TouchableOpacity>
 );
+
 
 const OnboardingScreen = () => {
     const navigation = useNavigation();
@@ -63,36 +82,35 @@ const OnboardingScreen = () => {
                 {
                     backgroundColor: '#1c161b',
                     image: <Image source={Images.slider1} />,
-                    title: 'FAST VPN',
-                    subtitle: 'Protect your privacy at lightning speed.',
-                    subTitleComponent: (
-                        <View>
-                            <Text style={{ fontSize: 16, color: 'white', textAlign: 'center' }}>
-                                Protect your privacy at lightning speed.
-                            </Text>
-                            <Text style={{ marginTop: 10, fontSize: 14, color: 'white', textAlign: 'center' }}>
-                                Use our VPN to securely connect and protect your data across the internet.
-                            </Text>
-                        </View>
-                    ),
+                    title: 'Many prestigious awards',
+                    subtitle: 'Trusted by over 4 million users.',
+                    titleStyles: { color: '#FF9900', fontWeight:'600',  },  
+                    subTitleStyles: { color: '#FFAD33' },
+              
                 },
                 {
                     backgroundColor: '#1c161b',
                     image: <Image source={Images.slider2} />,
-                    title: 'Many Prestigious Awards',
-                    subtitle: 'Trusted by over 4 million users.',
+                    title: 'Safe and Secured',
+                    subtitle: 'Military-Grade Encryption.',
+                    titleStyles: { color: '#FF9900' , fontWeight:'600', },  
+                    subTitleStyles: { color: '#FFAD33' },
                 },
                 {
                     backgroundColor: '#1c161b',
                     image: <Image source={Images.slider3} />,
-                    title: 'Safe And Secured',
-                    subtitle: 'Military-Grade Encryption.',
+                    title: 'Global Server Coverage',
+                    subtitle: 'Supports over 1 million servers worldwide.',
+                    titleStyles: { color: '#FF9900' , fontWeight:'600', },  
+                    subTitleStyles: { color: '#FFAD33' },
                 },
                 {
                     backgroundColor: '#1c161b',
                     image: <Image source={Images.slider4} />,
-                    title: 'Global Server Coverage',
-                    subtitle: 'Supports over 1 million servers worldwide.',
+                    title: '24/7 Customer Support',
+                    subtitle: 'Caring help whenever you need.',
+                    titleStyles: { color: '#FF9900', fontWeight:'600',  }, 
+                    subTitleStyles: { color: '#FFAD33' },
                 },
             ]}
         />

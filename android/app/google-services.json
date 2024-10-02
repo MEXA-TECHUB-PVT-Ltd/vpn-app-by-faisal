@@ -1,33 +1,42 @@
 {
   "project_info": {
-    "project_number": "428603498610",
-    "project_id": "disciplineguru-a311a",
-    "storage_bucket": "disciplineguru-a311a.appspot.com"
+    "project_number": "69377085199",
+    "firebase_url": "https://vpn-app-20ae3-default-rtdb.firebaseio.com",
+    "project_id": "vpn-app-20ae3",
+    "storage_bucket": "vpn-app-20ae3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:428603498610:android:486a426862eb127285e2eb",
+        "mobilesdk_app_id": "1:69377085199:android:bf499e7fc290ca7ce8787a",
         "android_client_info": {
           "package_name": "com.fortydayschallenge1"
         }
       },
       "oauth_client": [
         {
-          "client_id": "428603498610-jvojpoe24f24j9978rbmu4fblk8is163.apps.googleusercontent.com",
+          "client_id": "69377085199-dqd6gvces3mjop3l45vch5nce1jm55ih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fortydayschallenge1",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "69377085199-1o9q6cmm27hb6l0810oujabd10mepn38.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBpLOlixb9hKqdjldoqNnnZGoWmvyi1oxY"
+          "current_key": "AIzaSyDQXveXPzXv2bOZDa9q1He5mDH2-alO3M8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "428603498610-jvojpoe24f24j9978rbmu4fblk8is163.apps.googleusercontent.com",
+              "client_id": "69377085199-1o9q6cmm27hb6l0810oujabd10mepn38.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

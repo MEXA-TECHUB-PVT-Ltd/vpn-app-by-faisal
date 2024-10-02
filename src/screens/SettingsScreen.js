@@ -24,7 +24,8 @@ const SettingsScreen = ({ navigation }) => {
         leftComponent={
           <TouchableOpacity
             // onPress={() => navigation.openDrawer()}
-            style={{ backgroundColor: "gray", borderRadius: 30, padding: 5 }}
+            onPress={() => navigation.toggleDrawer()} 
+            style={{ backgroundColor: "gray", borderRadius: 30, padding: 8 }}
           >
              <Image source={Images.DrawerMenu} />
           </TouchableOpacity>
