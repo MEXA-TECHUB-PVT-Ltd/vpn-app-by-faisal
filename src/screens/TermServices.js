@@ -12,12 +12,12 @@ const TermServices = ({ navigation }) => {
         <View style={styles.container}>
             <CustomHeader
                 leftComponent={
-                    <TouchableOpacity onPress={() => navigation.goBack()} style={{backgroundColor:'gray', borderRadius:30, padding:5}}>
+                    <TouchableOpacity onPress={() => navigation.goBack()} style={{backgroundColor:'#6D6C69', borderRadius:30, padding:5}}>
                          <Image source={Images.back}/>
                     </TouchableOpacity>
                 }
                 middleComponent={
-                    <Text style={{ color: 'orange', fontSize: 22, fontWeight: '700' }}>Term of Service</Text>
+                    <Text style={{ color: 'orange', fontSize: 20, fontFamily: "Poppins-Bold", }}>Term of Service</Text>
                 }
             />
 
@@ -35,12 +35,12 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#1c161b',
-        paddingVertical:10,
-        paddingHorizontal:10
+        paddingVertical:15,
+        paddingHorizontal:15
     },
     content: {
-        paddingHorizontal: 20,
-        paddingVertical: 30,
+        paddingHorizontal: 10,
+        paddingVertical: 15,
     },
     settingItem: {
         flexDirection: 'row',
@@ -49,8 +49,9 @@ const styles = StyleSheet.create({
         marginBottom: 20,
     },
     settingText: {
-        color: 'white',
+        color: '#DBD6CE',
         fontSize: 16,
+        fontFamily: "Poppins-Regular",
     },
   
 });

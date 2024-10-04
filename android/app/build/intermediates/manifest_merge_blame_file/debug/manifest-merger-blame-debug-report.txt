@@ -1,0 +1,1099 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fortydayschallenge1"
+4    android:versionCode="7"
+5    android:versionName="5.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:5:5-77
+11-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:6:5-80
+13-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:7:5-81
+14-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+15-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:8:5-88
+15-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:8:22-85
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:9:5-79
+16-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:10:5-79
+17-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="android.permission.CAMERA" /> <!-- ye add kya 1.10.2024 -->
+18-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:11:5-64
+18-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:11:22-62
+19    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+19-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:14:1-67
+19-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:14:18-64
+20    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+20-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:15:1-70
+20-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:15:18-67
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:18:5-77
+21-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:18:22-74
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:19:5-68
+22-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:19:22-65
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:21:1-72
+23-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:21:18-69
+24    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+24-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:22:1-75
+24-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:22:18-72
+25    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+25-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:23:1-72
+25-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:23:18-69
+26    <uses-permission android:name="android.permission.BIND_VPN_SERVICE" />
+26-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:25:1-71
+26-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:25:18-68
+27    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+27-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:29:1-75
+27-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:29:18-72
+28    <uses-permission android:name="android.permission.VIBRATE" />
+28-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:30:5-66
+28-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:30:22-63
+29    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+29-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:31:5-80
+29-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:31:22-78
+30
+31    <uses-feature
+31-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:33:5-85
+32        android:name="android.hardware.camera"
+32-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:33:19-57
+33        android:required="false" />
+33-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:33:58-82
+34    <uses-feature
+34-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:34:5-91
+35        android:name="android.hardware.camera.front"
+35-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:34:19-63
+36        android:required="false" />
+36-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:34:64-88
+37
+38    <queries>
+38-->[:react-native-image-crop-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:15
+39        <intent>
+39-->[:react-native-image-crop-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+40            <action android:name="android.media.action.IMAGE_CAPTURE" />
+40-->[:react-native-image-crop-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-73
+40-->[:react-native-image-crop-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-70
+41        </intent>
+42        <!-- For browser content -->
+43        <intent>
+43-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:35:9-41:18
+44            <action android:name="android.intent.action.VIEW" />
+44-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:87:13-65
+44-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:87:21-62
+45
+46            <category android:name="android.intent.category.BROWSABLE" />
+46-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:89:13-74
+46-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:89:23-71
+47
+48            <data android:scheme="https" />
+48-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:93:13-44
+48-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:93:19-41
+49        </intent> <!-- End of browser content -->
+50        <!-- For CustomTabsService -->
+51        <intent>
+51-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:44:9-46:18
+52            <action android:name="android.support.customtabs.action.CustomTabsService" />
+52-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:45:13-90
+52-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:45:21-87
+53        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+54        <package android:name="com.google.android.apps.maps" />
+54-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\user\.gradle\caches\transforms-3\0c0a264f11e64780e5f4f5d58657a1aa\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+54-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\user\.gradle\caches\transforms-3\0c0a264f11e64780e5f4f5d58657a1aa\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+55    </queries> <!-- Required to access Google Play Licensing -->
+56    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+56-->[:rn-fetch-blob] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-73
+56-->[:rn-fetch-blob] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-70
+57    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+57-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\user\.gradle\caches\transforms-3\909b1edb74b2ea258cbb26384c5ec149\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+57-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\user\.gradle\caches\transforms-3\909b1edb74b2ea258cbb26384c5ec149\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:22-79
+58    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+58-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:25:5-77
+58-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:25:22-74
+59    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+59-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:26:5-79
+59-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:26:22-76
+60
+61    <uses-feature
+61-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\user\.gradle\caches\transforms-3\0c0a264f11e64780e5f4f5d58657a1aa\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+62        android:glEsVersion="0x00020000"
+62-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\user\.gradle\caches\transforms-3\0c0a264f11e64780e5f4f5d58657a1aa\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+63        android:required="true" />
+63-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\user\.gradle\caches\transforms-3\0c0a264f11e64780e5f4f5d58657a1aa\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+64
+65    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+65-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\user\.gradle\caches\transforms-3\15671be392c4a34d9d8de68db272e53b\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:5-110
+65-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\user\.gradle\caches\transforms-3\15671be392c4a34d9d8de68db272e53b\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:22-107
+66    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+67    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+68    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+69    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+70    <!-- for Samsung -->
+71    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+71-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+71-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+72    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+72-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+72-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+73    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+73-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+73-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+74    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+74-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+74-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+75    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+75-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+75-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+76    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+76-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+76-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+77    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+77-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+77-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+78    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+78-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+78-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+79    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+79-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+79-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+80    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+80-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+80-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+81    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+81-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+81-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+82    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+82-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+82-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+83    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+83-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+83-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+84    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+84-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+84-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+85    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+85-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+85-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+86    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+86-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+86-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\user\.gradle\caches\transforms-3\6ef56fcf15fc65e75806b3a203ac8b96\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+87
+88    <application
+88-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:36:5-127:19
+89        android:name="com.fortydayschallenge1.MainApplication"
+89-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:37:7-38
+90        android:allowBackup="false"
+90-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:41:7-34
+91        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+91-->[androidx.core:core:1.8.0] C:\Users\user\.gradle\caches\transforms-3\79d0afd8d5f39f11388eae6868fd348b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+92        android:debuggable="true"
+93        android:icon="@mipmap/ic_launcher"
+93-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:39:7-41
+94        android:label="@string/app_name"
+94-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:38:7-39
+95        android:roundIcon="@mipmap/ic_launcher_round"
+95-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:40:7-52
+96        android:theme="@style/AppTheme"
+96-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:42:7-38
+97        android:usesCleartextTraffic="true" >
+97-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\debug\AndroidManifest.xml:8:9-44
+98        <activity
+98-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\debug\AndroidManifest.xml:11:9-111
+99            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+99-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\debug\AndroidManifest.xml:11:19-83
+100            android:exported="false" />
+100-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\debug\AndroidManifest.xml:11:84-108
+101        <!-- _____________________________________________PUSH NOTIFICATION____________________________________ -->
+102        <!-- Change the value to true to enable pop-up for in foreground on receiving remote notifications (for prevent duplicating while showing local notifications set this to false) -->
+103        <meta-data
+103-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:46:1-47:43
+104            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+104-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:46:13-89
+105            android:value="true" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+105-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:47:21-41
+106        <meta-data
+106-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:49:9-50:54
+107            android:name="com.dieam.reactnativepushnotification.notification_color"
+107-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:49:21-92
+108            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+108-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:50:21-52
+109        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+109-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:52:9-108
+109-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:52:19-105
+110        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+110-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:53:9-110
+110-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:53:19-107
+111        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+111-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:54:9-55:20
+111-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:54:19-115
+112        </receiver>
+113
+114        <service
+114-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:57:9-63:19
+115            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+115-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:58:13-107
+116            android:exported="false" >
+116-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:59:13-37
+117            <intent-filter>
+117-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:60:13-62:29
+118                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+118-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:61:17-78
+118-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:61:25-75
+119            </intent-filter>
+120        </service> <!-- _____________________________________________PUSH NOTIFICATION____________________________________ -->
+121        <activity
+121-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:67:7-110:18
+122            android:name="com.fortydayschallenge1.MainActivity"
+122-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:68:9-37
+123            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+123-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:70:9-118
+124            android:exported="true"
+124-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:73:9-32
+125            android:label="@string/app_name"
+125-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:69:9-41
+126            android:launchMode="singleTask"
+126-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:71:9-40
+127            android:windowSoftInputMode="adjustResize" >
+127-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:72:9-51
+128            <intent-filter android:autoVerify="true" >
+128-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:74:9-83:25
+128-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:74:24-49
+129                <action android:name="android.intent.action.MAIN" />
+129-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:75:13-65
+129-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:75:21-62
+130
+131                <category android:name="android.intent.category.LAUNCHER" />
+131-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:76:13-73
+131-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:76:23-70
+132
+133                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+133-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:77:13-77
+133-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:77:21-75
+134
+135                <!-- PUSH NOtification -->
+136                <action android:name="android.intent.action.BOOT_COMPLETED" />
+136-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:80:13-75
+136-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:80:21-72
+137                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+137-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:81:17-82
+137-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:81:25-79
+138                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+138-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:82:17-81
+138-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:82:25-79
+139            </intent-filter>
+140
+141            <!-- deep linking -->
+142            <intent-filter
+142-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:86:9-96:24
+143                android:autoVerify="true"
+143-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:86:26-51
+144                android:label="filter_react_native" >
+144-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:86:52-87
+145                <action android:name="android.intent.action.VIEW" />
+145-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:87:13-65
+145-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:87:21-62
+146
+147                <category android:name="android.intent.category.DEFAULT" />
+147-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:88:13-72
+147-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:88:23-69
+148                <category android:name="android.intent.category.BROWSABLE" />
+148-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:89:13-74
+148-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:89:23-71
+149                <!-- <data  android:host="app" android:scheme="demo" /> -->
+150
+151
+152                <!-- <data android:scheme="http" /> -->
+153                <data android:scheme="https" />
+153-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:93:13-44
+153-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:93:19-41
+154                <!-- <data android:host="disciplineguru.co" /> -->
+155                <data android:host="fortydayschallenge.page.link" />
+155-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:93:13-44
+156            </intent-filter>
+157
+158            <!--
+159    <intent-filter>
+160        <action android:name="android.intent.action.VIEW" />
+161        <category android:name="android.intent.category.DEFAULT" />
+162        <category android:name="android.intent.category.BROWSABLE" />
+163        <data android:scheme="http" />
+164        <data android:scheme="https" />
+165        <data android:host="www.example.com" />
+166        <data android:pathPrefix="/mychatapp" />
+167    </intent-filter>
+168            -->
+169
+170        </activity>
+171        <activity
+171-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:111:10-117:52
+172            android:name="de.blinkt.openvpn.DisconnectVPNActivity"
+172-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:112:13-67
+173            android:excludeFromRecents="true"
+173-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:113:13-46
+174            android:exported="false"
+174-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:115:13-37
+175            android:noHistory="true"
+175-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:114:13-37
+176            android:taskAffinity=".DisconnectVPN"
+176-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:116:13-50
+177            android:theme="@style/blinkt.dialog" />
+177-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:117:13-49
+178
+179        <service
+179-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:118:9-125:19
+180            android:name="de.blinkt.openvpn.core.OpenVPNService"
+180-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:119:13-65
+181            android:exported="true"
+181-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:120:13-36
+182            android:permission="android.permission.BIND_VPN_SERVICE" >
+182-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:121:13-69
+183            <intent-filter>
+183-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:122:13-124:29
+184                <action android:name="android.net.VpnService" />
+184-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:123:17-65
+184-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:123:25-62
+185            </intent-filter>
+186        </service>
+187        <service
+187-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-16:40
+188            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+188-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-103
+189            android:exported="false" />
+189-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+190        <service
+190-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-23:19
+191            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+191-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-95
+192            android:exported="false" >
+192-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+193            <intent-filter>
+193-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:60:13-62:29
+194                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+194-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:61:17-78
+194-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:61:25-75
+195            </intent-filter>
+196        </service>
+197
+198        <receiver
+198-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-32:20
+199            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+199-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-96
+200            android:exported="true"
+200-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-36
+201            android:permission="com.google.android.c2dm.permission.SEND" >
+201-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-73
+202            <intent-filter>
+202-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:29
+203                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+203-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-81
+203-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:25-78
+204            </intent-filter>
+205        </receiver>
+206
+207        <meta-data
+207-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-36:36
+208            android:name="firebase_messaging_auto_init_enabled"
+208-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-64
+209            android:value="true" />
+209-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-33
+210        <meta-data
+210-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-39:32
+211            android:name="com.google.firebase.messaging.default_notification_channel_id"
+211-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-89
+212            android:value="" />
+212-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-29
+213        <meta-data
+213-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-42:47
+214            android:name="com.google.firebase.messaging.default_notification_color"
+214-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-84
+215            android:resource="@color/white" />
+215-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44
+216        <meta-data
+216-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-13:36
+217            android:name="app_data_collection_default_enabled"
+217-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-63
+218            android:value="true" />
+218-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-33
+219
+220        <service
+220-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:19
+221            android:name="com.google.firebase.components.ComponentDiscoveryService"
+221-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-84
+222            android:directBootAware="true"
+222-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-43
+223            android:exported="false" >
+223-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+224            <meta-data
+224-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:85
+225                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+225-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-120
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
+227            <meta-data
+227-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+228                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+228-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+230            <meta-data
+230-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+231                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+231-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+232                android:value="com.google.firebase.components.ComponentRegistrar" />
+232-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+233            <meta-data
+233-->[com.google.firebase:firebase-firestore:24.4.4] C:\Users\user\.gradle\caches\transforms-3\72b0c962d10fe7ec6a5216bd6d436c1e\transformed\jetified-firebase-firestore-24.4.4\AndroidManifest.xml:19:13-21:85
+234                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+234-->[com.google.firebase:firebase-firestore:24.4.4] C:\Users\user\.gradle\caches\transforms-3\72b0c962d10fe7ec6a5216bd6d436c1e\transformed\jetified-firebase-firestore-24.4.4\AndroidManifest.xml:20:17-111
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[com.google.firebase:firebase-firestore:24.4.4] C:\Users\user\.gradle\caches\transforms-3\72b0c962d10fe7ec6a5216bd6d436c1e\transformed\jetified-firebase-firestore-24.4.4\AndroidManifest.xml:21:17-82
+236            <meta-data
+236-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\user\.gradle\caches\transforms-3\1722261c82f4ab73ec48780a771bb246\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:26:13-28:85
+237                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+237-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\user\.gradle\caches\transforms-3\1722261c82f4ab73ec48780a771bb246\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:27:17-133
+238                android:value="com.google.firebase.components.ComponentRegistrar" />
+238-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\user\.gradle\caches\transforms-3\1722261c82f4ab73ec48780a771bb246\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:28:17-82
+239            <meta-data
+239-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\user\.gradle\caches\transforms-3\7964ed7f07fe6857265cce1ca8ac52d5\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+240                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+240-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\user\.gradle\caches\transforms-3\7964ed7f07fe6857265cce1ca8ac52d5\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+241                android:value="com.google.firebase.components.ComponentRegistrar" />
+241-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\user\.gradle\caches\transforms-3\7964ed7f07fe6857265cce1ca8ac52d5\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+242            <meta-data
+242-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\user\.gradle\caches\transforms-3\60edcdada22ea799e3e3167606e7d989\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+243                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+243-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\user\.gradle\caches\transforms-3\60edcdada22ea799e3e3167606e7d989\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+244                android:value="com.google.firebase.components.ComponentRegistrar" />
+244-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\user\.gradle\caches\transforms-3\60edcdada22ea799e3e3167606e7d989\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+245            <meta-data
+245-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\user\.gradle\caches\transforms-3\8374d8405292675d396e217a3bff87df\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+246                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+246-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\user\.gradle\caches\transforms-3\8374d8405292675d396e217a3bff87df\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+247                android:value="com.google.firebase.components.ComponentRegistrar" />
+247-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\user\.gradle\caches\transforms-3\8374d8405292675d396e217a3bff87df\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+248        </service>
+249
+250        <provider
+250-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:38
+251            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+251-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-88
+252            android:authorities="com.fortydayschallenge1.reactnativefirebaseappinitprovider"
+252-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-86
+253            android:exported="false"
+253-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+254            android:initOrder="99" />
+254-->[:react-native-firebase_app] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-35
+255        <provider
+255-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-45:20
+256            android:name="com.ReactNativeBlobUtil.Utils.FileProvider"
+256-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-70
+257            android:authorities="com.fortydayschallenge1.provider"
+257-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-60
+258            android:exported="false"
+258-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-37
+259            android:grantUriPermissions="true" >
+259-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-47
+260            <meta-data
+260-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+261                android:name="android.support.FILE_PROVIDER_PATHS"
+261-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+262                android:resource="@xml/provider_paths" />
+262-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+263        </provider>
+264
+265        <meta-data
+265-->[:react-native-google-mobile-ads] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-google-mobile-ads\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-16:70
+266            android:name="com.google.android.gms.ads.APPLICATION_ID"
+266-->[:react-native-google-mobile-ads] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-google-mobile-ads\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-69
+267            android:value="ca-app-pub-7704502606452068~1295136618" />
+267-->[:react-native-google-mobile-ads] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-google-mobile-ads\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-67
+268        <meta-data
+268-->[:react-native-google-mobile-ads] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-google-mobile-ads\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-19:37
+269            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
+269-->[:react-native-google-mobile-ads] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-google-mobile-ads\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-81
+270            android:value="false" />
+270-->[:react-native-google-mobile-ads] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-google-mobile-ads\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-34
+271        <meta-data
+271-->[:react-native-google-mobile-ads] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-google-mobile-ads\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-22:36
+272            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+272-->[:react-native-google-mobile-ads] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-google-mobile-ads\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-83
+273            android:value="true" />
+273-->[:react-native-google-mobile-ads] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-google-mobile-ads\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-33
+274        <meta-data
+274-->[:react-native-google-mobile-ads] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-google-mobile-ads\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-25:36
+275            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+275-->[:react-native-google-mobile-ads] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-google-mobile-ads\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-79
+276            android:value="true" />
+276-->[:react-native-google-mobile-ads] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-google-mobile-ads\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-33
+277
+278        <provider
+278-->[:react-native-image-crop-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-26:20
+279            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+279-->[:react-native-image-crop-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-94
+280            android:authorities="com.fortydayschallenge1.provider"
+280-->[:react-native-image-crop-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-60
+281            android:exported="false"
+281-->[:react-native-image-crop-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+282            android:grantUriPermissions="true" >
+282-->[:react-native-image-crop-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-47
+283            <meta-data
+283-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+284                android:name="android.support.FILE_PROVIDER_PATHS"
+284-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+285                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+285-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+286        </provider>
+287
+288        <activity
+288-->[:react-native-image-crop-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:72
+289            android:name="com.yalantis.ucrop.UCropActivity"
+289-->[:react-native-image-crop-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-60
+290            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+290-->[:react-native-image-crop-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-69
+291
+292        <provider
+292-->[:react-native-image-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+293            android:name="com.imagepicker.ImagePickerProvider"
+293-->[:react-native-image-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+294            android:authorities="com.fortydayschallenge1.imagepickerprovider"
+294-->[:react-native-image-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+295            android:exported="false"
+295-->[:react-native-image-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+296            android:grantUriPermissions="true" >
+296-->[:react-native-image-picker] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+297            <meta-data
+297-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+298                android:name="android.support.FILE_PROVIDER_PATHS"
+298-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+299                android:resource="@xml/imagepicker_provider_paths" />
+299-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+300        </provider> <!-- The main service, handles playback, playlists and media buttons -->
+301        <service
+301-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-22:19
+302            android:name="com.doublesymmetry.trackplayer.service.MusicService"
+302-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-79
+303            android:enabled="true"
+303-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-35
+304            android:exported="false" >
+304-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+305            <intent-filter>
+305-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-21:29
+306                <action android:name="android.intent.action.MEDIA_BUTTON" />
+306-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-77
+306-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-74
+307            </intent-filter>
+308        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+309        <receiver
+309-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-31:20
+310            android:name="androidx.media.session.MediaButtonReceiver"
+310-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-70
+311            android:exported="true" >
+311-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-36
+312            <intent-filter>
+312-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-21:29
+313                <action android:name="android.intent.action.MEDIA_BUTTON" />
+313-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-77
+313-->[:react-native-track-player] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-74
+314            </intent-filter>
+315        </receiver>
+316
+317        <service
+317-->[:react-native-vpn-ipsec] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-vpn-ipsec\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-15:40
+318            android:name="org.strongswan.android.logic.VpnStateService"
+318-->[:react-native-vpn-ipsec] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-vpn-ipsec\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-72
+319            android:exported="false" />
+319-->[:react-native-vpn-ipsec] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-vpn-ipsec\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+320        <service
+320-->[:react-native-vpn-ipsec] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-vpn-ipsec\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:72
+321            android:name="org.strongswan.android.logic.CharonVpnService"
+321-->[:react-native-vpn-ipsec] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-vpn-ipsec\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-73
+322            android:permission="android.permission.BIND_VPN_SERVICE" />
+322-->[:react-native-vpn-ipsec] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-vpn-ipsec\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-69
+323
+324        <provider
+324-->[:rn-fetch-blob] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-42:20
+325            android:name="com.RNFetchBlob.Utils.FileProvider"
+325-->[:rn-fetch-blob] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-62
+326            android:authorities="com.fortydayschallenge1.provider"
+326-->[:rn-fetch-blob] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-60
+327            android:exported="false"
+327-->[:rn-fetch-blob] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+328            android:grantUriPermissions="true" >
+328-->[:rn-fetch-blob] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+329            <meta-data
+329-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+330                android:name="android.support.FILE_PROVIDER_PATHS"
+330-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+331                android:resource="@xml/provider_paths" />
+331-->[:react-native-blob-util] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+332        </provider>
+333
+334        <activity
+334-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+335            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+335-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+336            android:excludeFromRecents="true"
+336-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+337            android:exported="true"
+337-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+338            android:launchMode="singleTask"
+338-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+339            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+339-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+340            <intent-filter>
+340-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+341                <action android:name="android.intent.action.VIEW" />
+341-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:87:13-65
+341-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:87:21-62
+342
+343                <category android:name="android.intent.category.DEFAULT" />
+343-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:88:13-72
+343-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:88:23-69
+344                <category android:name="android.intent.category.BROWSABLE" />
+344-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:89:13-74
+344-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:89:23-71
+345
+346                <data
+346-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:93:13-44
+347                    android:host="firebase.auth"
+348                    android:path="/"
+349                    android:scheme="genericidp" />
+349-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:93:19-41
+350            </intent-filter>
+351        </activity>
+352        <activity
+352-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+353            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+353-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+354            android:excludeFromRecents="true"
+354-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+355            android:exported="true"
+355-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+356            android:launchMode="singleTask"
+356-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+357            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+357-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+358            <intent-filter>
+358-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\user\.gradle\caches\transforms-3\96eee083d55ca0655974d4b8761402f4\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+359                <action android:name="android.intent.action.VIEW" />
+359-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:87:13-65
+359-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:87:21-62
+360
+361                <category android:name="android.intent.category.DEFAULT" />
+361-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:88:13-72
+361-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:88:23-69
+362                <category android:name="android.intent.category.BROWSABLE" />
+362-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:89:13-74
+362-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:89:23-71
+363
+364                <data
+364-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:93:13-44
+365                    android:host="firebase.auth"
+366                    android:path="/"
+367                    android:scheme="recaptcha" />
+367-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:93:19-41
+368            </intent-filter>
+369        </activity>
+370
+371        <receiver
+371-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+372            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+372-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+373            android:exported="true"
+373-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+374            android:permission="com.google.android.c2dm.permission.SEND" >
+374-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+375            <intent-filter>
+375-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:29
+376                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+376-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-81
+376-->[:react-native-firebase_messaging] D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:25-78
+377            </intent-filter>
+378        </receiver>
+379        <!--
+380             FirebaseMessagingService performs security checks at runtime,
+381             but set to not exported to explicitly avoid allowing another app to call it.
+382        -->
+383        <service
+383-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+384            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+384-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+385            android:directBootAware="true"
+385-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+386            android:exported="false" >
+386-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\user\.gradle\caches\transforms-3\4c84b0257aa99bec8e33d2e3a4b61f53\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+387            <intent-filter android:priority="-500" >
+387-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:60:13-62:29
+388                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+388-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:61:17-78
+388-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:61:25-75
+389            </intent-filter>
+390        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+391        <activity
+391-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:53:9-58:43
+392            android:name="com.google.android.gms.ads.AdActivity"
+392-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:54:13-65
+393            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+393-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:55:13-122
+394            android:exported="false"
+394-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:56:13-37
+395            android:theme="@android:style/Theme.Translucent" />
+395-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:57:13-61
+396
+397        <provider
+397-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:60:9-65:43
+398            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+398-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:61:13-76
+399            android:authorities="com.fortydayschallenge1.mobileadsinitprovider"
+399-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:62:13-73
+400            android:exported="false"
+400-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:63:13-37
+401            android:initOrder="100" />
+401-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:64:13-36
+402
+403        <service
+403-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:67:9-71:43
+404            android:name="com.google.android.gms.ads.AdService"
+404-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:68:13-64
+405            android:enabled="true"
+405-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:69:13-35
+406            android:exported="false" />
+406-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:70:13-37
+407
+408        <activity
+408-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:73:9-77:43
+409            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+409-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:74:13-82
+410            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+410-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:75:13-122
+411            android:exported="false" />
+411-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\user\.gradle\caches\transforms-3\085babcdfcb56e45a2c4a25545c0afef\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:76:13-37
+412
+413        <provider
+413-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+414            android:name="androidx.startup.InitializationProvider"
+414-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+415            android:authorities="com.fortydayschallenge1.androidx-startup"
+415-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+416            android:exported="false" >
+416-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+417            <meta-data
+417-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+418                android:name="androidx.work.WorkManagerInitializer"
+418-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+419                android:value="androidx.startup" />
+419-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+420            <meta-data
+420-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\883d53ae036d61d9de57c4495cdb9186\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+421                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+421-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\883d53ae036d61d9de57c4495cdb9186\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+422                android:value="androidx.startup" />
+422-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\883d53ae036d61d9de57c4495cdb9186\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+423            <meta-data
+423-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\70e7afa586062371e234a45e2db2f814\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+424                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+424-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\70e7afa586062371e234a45e2db2f814\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+425                android:value="androidx.startup" />
+425-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\70e7afa586062371e234a45e2db2f814\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+426        </provider>
+427
+428        <service
+428-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+429            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+429-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+430            android:directBootAware="false"
+430-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+431            android:enabled="@bool/enable_system_alarm_service_default"
+431-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+432            android:exported="false" />
+432-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+433        <service
+433-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+434            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+434-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+435            android:directBootAware="false"
+435-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+436            android:enabled="@bool/enable_system_job_service_default"
+436-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+437            android:exported="true"
+437-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+438            android:permission="android.permission.BIND_JOB_SERVICE" />
+438-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+439        <service
+439-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+440            android:name="androidx.work.impl.foreground.SystemForegroundService"
+440-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+441            android:directBootAware="false"
+441-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+442            android:enabled="@bool/enable_system_foreground_service_default"
+442-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+443            android:exported="false" />
+443-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+444
+445        <receiver
+445-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+446            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+446-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+447            android:directBootAware="false"
+447-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+448            android:enabled="true"
+448-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+449            android:exported="false" />
+449-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+450        <receiver
+450-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+451            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+451-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+452            android:directBootAware="false"
+452-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+453            android:enabled="false"
+453-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+454            android:exported="false" >
+454-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+455            <intent-filter>
+455-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+456                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+456-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+456-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+457                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+457-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+457-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+458            </intent-filter>
+459        </receiver>
+460        <receiver
+460-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+461            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+461-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+462            android:directBootAware="false"
+462-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+463            android:enabled="false"
+463-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+464            android:exported="false" >
+464-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+465            <intent-filter>
+465-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+466                <action android:name="android.intent.action.BATTERY_OKAY" />
+466-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+466-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+467                <action android:name="android.intent.action.BATTERY_LOW" />
+467-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+467-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+468            </intent-filter>
+469        </receiver>
+470        <receiver
+470-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+471            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+471-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+472            android:directBootAware="false"
+472-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+473            android:enabled="false"
+473-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+474            android:exported="false" >
+474-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+475            <intent-filter>
+475-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+476                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+476-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+476-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+477                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+477-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+477-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+478            </intent-filter>
+479        </receiver>
+480        <receiver
+480-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+481            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+481-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+482            android:directBootAware="false"
+482-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+483            android:enabled="false"
+483-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+484            android:exported="false" >
+484-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+485            <intent-filter>
+485-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+486                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+486-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+486-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+487            </intent-filter>
+488        </receiver>
+489        <receiver
+489-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+490            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+490-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+491            android:directBootAware="false"
+491-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+492            android:enabled="false"
+492-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+493            android:exported="false" >
+493-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+494            <intent-filter>
+494-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+495                <action android:name="android.intent.action.BOOT_COMPLETED" />
+495-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:80:13-75
+495-->D:\faisalreactnative\MTech-VPN\vpn-app-by-faisal\android\app\src\main\AndroidManifest.xml:80:21-72
+496                <action android:name="android.intent.action.TIME_SET" />
+496-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+496-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+497                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+497-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+497-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+498            </intent-filter>
+499        </receiver>
+500        <receiver
+500-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+501            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+501-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+502            android:directBootAware="false"
+502-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+503            android:enabled="@bool/enable_system_alarm_service_default"
+503-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+504            android:exported="false" >
+504-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+505            <intent-filter>
+505-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+506                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+506-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+506-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+507            </intent-filter>
+508        </receiver>
+509        <receiver
+509-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+510            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+510-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+511            android:directBootAware="false"
+511-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+512            android:enabled="true"
+512-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+513            android:exported="true"
+513-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+514            android:permission="android.permission.DUMP" >
+514-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+515            <intent-filter>
+515-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+516                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+516-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+516-->[androidx.work:work-runtime:2.7.1] C:\Users\user\.gradle\caches\transforms-3\c47fd26d6c588fbc4dd244cd940ff530\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+517            </intent-filter>
+518        </receiver>
+519
+520        <service
+520-->[androidx.room:room-runtime:2.2.5] C:\Users\user\.gradle\caches\transforms-3\dbe4db13fd425141695a28a11a3830b0\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+521            android:name="androidx.room.MultiInstanceInvalidationService"
+521-->[androidx.room:room-runtime:2.2.5] C:\Users\user\.gradle\caches\transforms-3\dbe4db13fd425141695a28a11a3830b0\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+522            android:directBootAware="true"
+522-->[androidx.room:room-runtime:2.2.5] C:\Users\user\.gradle\caches\transforms-3\dbe4db13fd425141695a28a11a3830b0\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+523            android:exported="false" />
+523-->[androidx.room:room-runtime:2.2.5] C:\Users\user\.gradle\caches\transforms-3\dbe4db13fd425141695a28a11a3830b0\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+524
+525        <provider
+525-->[com.google.firebase:firebase-common:20.3.1] C:\Users\user\.gradle\caches\transforms-3\95e01ead2977a2d9c66d8d93a6b11678\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:25:9-30:39
+526            android:name="com.google.firebase.provider.FirebaseInitProvider"
+526-->[com.google.firebase:firebase-common:20.3.1] C:\Users\user\.gradle\caches\transforms-3\95e01ead2977a2d9c66d8d93a6b11678\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:26:13-77
+527            android:authorities="com.fortydayschallenge1.firebaseinitprovider"
+527-->[com.google.firebase:firebase-common:20.3.1] C:\Users\user\.gradle\caches\transforms-3\95e01ead2977a2d9c66d8d93a6b11678\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:27:13-72
+528            android:directBootAware="true"
+528-->[com.google.firebase:firebase-common:20.3.1] C:\Users\user\.gradle\caches\transforms-3\95e01ead2977a2d9c66d8d93a6b11678\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:28:13-43
+529            android:exported="false"
+529-->[com.google.firebase:firebase-common:20.3.1] C:\Users\user\.gradle\caches\transforms-3\95e01ead2977a2d9c66d8d93a6b11678\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:29:13-37
+530            android:initOrder="100" />
+530-->[com.google.firebase:firebase-common:20.3.1] C:\Users\user\.gradle\caches\transforms-3\95e01ead2977a2d9c66d8d93a6b11678\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:30:13-36
+531
+532        <service
+532-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\user\.gradle\caches\transforms-3\66eac6e752ca2266c80019108119878c\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+533            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+533-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\user\.gradle\caches\transforms-3\66eac6e752ca2266c80019108119878c\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+534            android:exported="false" >
+534-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\user\.gradle\caches\transforms-3\66eac6e752ca2266c80019108119878c\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+535            <meta-data
+535-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\user\.gradle\caches\transforms-3\66eac6e752ca2266c80019108119878c\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+536                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+536-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\user\.gradle\caches\transforms-3\66eac6e752ca2266c80019108119878c\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+537                android:value="cct" />
+537-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\user\.gradle\caches\transforms-3\66eac6e752ca2266c80019108119878c\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+538        </service>
+539        <service
+539-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\user\.gradle\caches\transforms-3\ca91521df94ada7f04aa9a0211098cb5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+540            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+540-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\user\.gradle\caches\transforms-3\ca91521df94ada7f04aa9a0211098cb5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+541            android:exported="false"
+541-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\user\.gradle\caches\transforms-3\ca91521df94ada7f04aa9a0211098cb5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+542            android:permission="android.permission.BIND_JOB_SERVICE" >
+542-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\user\.gradle\caches\transforms-3\ca91521df94ada7f04aa9a0211098cb5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+543        </service>
+544
+545        <receiver
+545-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\user\.gradle\caches\transforms-3\ca91521df94ada7f04aa9a0211098cb5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+546            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+546-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\user\.gradle\caches\transforms-3\ca91521df94ada7f04aa9a0211098cb5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+547            android:exported="false" />
+547-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\user\.gradle\caches\transforms-3\ca91521df94ada7f04aa9a0211098cb5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+548
+549        <meta-data
+549-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\user\.gradle\caches\transforms-3\167fa1ae651bbac65bccf603ec4e8c84\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:11:9-13:43
+550            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+550-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\user\.gradle\caches\transforms-3\167fa1ae651bbac65bccf603ec4e8c84\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:12:13-84
+551            android:value="GlideModule" />
+551-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\user\.gradle\caches\transforms-3\167fa1ae651bbac65bccf603ec4e8c84\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:13:13-40
+552
+553        <activity
+553-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\user\.gradle\caches\transforms-3\a8e4fc10040c01dcd5517f312a23eb63\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
+554            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+554-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\user\.gradle\caches\transforms-3\a8e4fc10040c01dcd5517f312a23eb63\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
+555            android:excludeFromRecents="true"
+555-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\user\.gradle\caches\transforms-3\a8e4fc10040c01dcd5517f312a23eb63\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
+556            android:exported="false"
+556-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\user\.gradle\caches\transforms-3\a8e4fc10040c01dcd5517f312a23eb63\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
+557            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+557-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\user\.gradle\caches\transforms-3\a8e4fc10040c01dcd5517f312a23eb63\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
+558        <!--
+559            Service handling Google Sign-In user revocation. For apps that do not integrate with
+560            Google Sign-In, this service will never be started.
+561        -->
+562        <service
+562-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\user\.gradle\caches\transforms-3\a8e4fc10040c01dcd5517f312a23eb63\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
+563            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+563-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\user\.gradle\caches\transforms-3\a8e4fc10040c01dcd5517f312a23eb63\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
+564            android:exported="true"
+564-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\user\.gradle\caches\transforms-3\a8e4fc10040c01dcd5517f312a23eb63\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
+565            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+565-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\user\.gradle\caches\transforms-3\a8e4fc10040c01dcd5517f312a23eb63\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
+566            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+566-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\user\.gradle\caches\transforms-3\a8e4fc10040c01dcd5517f312a23eb63\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
+567        <uses-library
+567-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\user\.gradle\caches\transforms-3\0c0a264f11e64780e5f4f5d58657a1aa\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+568            android:name="org.apache.http.legacy"
+568-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\user\.gradle\caches\transforms-3\0c0a264f11e64780e5f4f5d58657a1aa\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+569            android:required="false" />
+569-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\user\.gradle\caches\transforms-3\0c0a264f11e64780e5f4f5d58657a1aa\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+570
+571        <activity
+571-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fc1f50a1643a3430e5baed9a21b22e94\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+572            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+572-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fc1f50a1643a3430e5baed9a21b22e94\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+573            android:exported="false"
+573-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fc1f50a1643a3430e5baed9a21b22e94\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+574            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+574-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fc1f50a1643a3430e5baed9a21b22e94\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+575
+576        <meta-data
+576-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\user\.gradle\caches\transforms-3\561300eeb9b81bb767313fdd9baa85be\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+577            android:name="com.google.android.gms.version"
+577-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\user\.gradle\caches\transforms-3\561300eeb9b81bb767313fdd9baa85be\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+578            android:value="@integer/google_play_services_version" />
+578-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\user\.gradle\caches\transforms-3\561300eeb9b81bb767313fdd9baa85be\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+579    </application>
+580
+581</manifest>

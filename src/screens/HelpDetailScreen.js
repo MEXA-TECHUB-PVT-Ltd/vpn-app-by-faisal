@@ -12,7 +12,7 @@ const HelpDetailScreen = ({ route, navigation }) => {
         <View style={styles.container}>
             <CustomHeader
                 leftComponent={
-                    <TouchableOpacity onPress={() => navigation.goBack()} style={{backgroundColor:'gray', borderRadius:30, padding:5}}>
+                    <TouchableOpacity onPress={() => navigation.goBack()} style={{backgroundColor:'#6D6C69', borderRadius:30, padding:5}}>
                          <Image source={Images.back}/>
                     </TouchableOpacity>
                 }
@@ -31,27 +31,28 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#1c161b',
-        paddingHorizontal:10,
+        paddingHorizontal:15,
         paddingVertical:10
     },
     headerTitle: {
         color: 'orange',
-        fontSize: 18,
-        fontWeight: 'bold',
+        fontSize: 25,
+        fontFamily: "Poppins-Bold",
     },
     contentContainer: {
         padding: 2,
     },
     questionText: {
-        color: 'white',
+        color: '#DBD6CE',
         fontSize: 20,
-        fontWeight: 'bold',
+        fontFamily: "Poppins-SemiBold",
         marginBottom: 20,
     },
     answerText: {
-        color: '#ccc',
+        color: '#DBD6CE',
         fontSize: 16,
         lineHeight: 24,
+        fontFamily: "Poppins-Regular",
     },
 });
 
