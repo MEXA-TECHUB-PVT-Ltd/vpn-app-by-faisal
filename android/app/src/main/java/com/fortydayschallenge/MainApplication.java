@@ -1,3 +1,4 @@
+
 package com.fortydayschallenge1;
 
 import android.app.Application;
@@ -33,7 +34,7 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 
 
 import com.facebook.react.shell.MainReactPackage;
-
+import com.dooboolab.rniap.RNIapPackage;
 public class MainApplication extends Application implements ReactApplication {
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {

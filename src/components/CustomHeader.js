@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialIcons';
+
 
 const CustomHeader = ({ leftComponent, middleComponent, rightComponent }) => {
     return (
