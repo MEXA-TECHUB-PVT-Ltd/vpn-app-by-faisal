@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "124123034810",
+    "firebase_url": "https://vpn-staging-dd8bd-default-rtdb.firebaseio.com",
+    "project_id": "vpn-staging-dd8bd",
+    "storage_bucket": "vpn-staging-dd8bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124123034810:android:4fde991978f308913b3e83",
+        "android_client_info": {
+          "package_name": "com.stealthlinkvpnapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124123034810-8huu1e7gs8kjpef52uk8tfo5ltqt8n1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stealthlinkvpnapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "124123034810-rakb9fpqv8al9l551kpb4sqpo9o5iuva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ7Fw5gpjK91W70ZjVNbJ2wz1WqRrMHiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124123034810-rakb9fpqv8al9l551kpb4sqpo9o5iuva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
